@@ -1,4 +1,4 @@
-Stuff we need:
+Stuff we need to play around with the transcription:
 1. youtube-dl - A python library to download youtube videos
 2. click - a python library
 3. ffmpeg - an open source software for handling multimedia files

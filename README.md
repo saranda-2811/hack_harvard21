@@ -6,3 +6,4 @@ Stuff we need to play around with the transcription:
 Go to https://ffbinaries.com/downloads and download the binaries ffmpeg, ffprobe, and ffplay. Unzip them and put them into a folder and put it in the same directory as your project.
 
 4. Assembly AI API key  
+5. There are separate functions to downloading, uploading, but to just transcribe a video from link, type in terminal - python cli.py transcribe-from-link <link>

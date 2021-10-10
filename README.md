@@ -8,6 +8,11 @@ Go to https://ffbinaries.com/downloads and download the binaries ffmpeg, ffprobe
 4. Assembly AI API key - go to configure.py and enter your auth key
 5. There are separate functions for downloading, uploading, etc. but to just transcribe a video from link, type in terminal - python cli.py transcribe-from-link "link"
 
+Setting up Twilio:
+1. Flask - We will create a web application that responds to incoming WhatsApp messages with it.
+2. ngrok. We will use this to connect the Flask application running on our system to a public URL that Twilio can connect to.
+3. A smartphone with an active phone number and WhatsApp installed.
+4. A Twilio account.
 
 (NOTE: The Twilio API converts all incoming messages to lowercase, hence making it invalid, so the Assembly AI API can't work with it.
 Running the transcription from the terminal works just fine though.
